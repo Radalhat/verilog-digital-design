@@ -1,0 +1,35 @@
+//========================================
+// Author : Rahma A. Dalhat
+// Module : 2-Bit Comparator (Behavioral)
+//========================================
+
+module comparator2bit(
+    input [1:0] A,
+    input [1:0] B,
+    output reg G,
+    output reg L,
+    output reg E
+);
+
+always @(*) begin
+
+    // Compare the two input values
+    if (A > B) begin
+        G = 1'b1;
+        L = 1'b0;
+        E = 1'b0;
+    end
+    else if (A < B) begin
+        G = 1'b0;
+        L = 1'b1;
+        E = 1'b0;
+    end
+    else begin
+        G = 1'b0;
+        L = 1'b0;
+        E = 1'b1;
+    end
+
+end
+
+endmodule

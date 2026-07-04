@@ -1,0 +1,15 @@
+//========================================
+// Author : Rahma A. Dalhat
+// Module : NOR Gate (Gate-Level)
+//========================================
+
+module nor_gate(
+    input A,
+    input B,
+    output Y
+);
+
+    // Implement NOR operation
+    nor (Y, A, B);
+
+endmodule

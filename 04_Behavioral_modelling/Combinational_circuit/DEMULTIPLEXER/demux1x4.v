@@ -1,0 +1,32 @@
+//========================================
+// Author : Rahma A. Dalhat
+// Module : 1x4 Demultiplexer (Behavioral)
+//========================================
+
+module demux1x4(
+    input D,
+    input [1:0] S,
+    output reg Y0,
+    output reg Y1,
+    output reg Y2,
+    output reg Y3
+);
+
+always @(*) begin
+
+    // Route the input to the selected output
+    Y0 = 0;
+    Y1 = 0;
+    Y2 = 0;
+    Y3 = 0;
+
+    case (S)
+        2'b00: Y0 = D;
+        2'b01: Y1 = D;
+        2'b10: Y2 = D;
+        2'b11: Y3 = D;
+    endcase
+
+end
+
+endmodule
