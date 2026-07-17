@@ -1,64 +1,74 @@
-# Verilog HDL
+# Verilog Digital Design
 
-Welcome to my **Verilog HDL** repository.
+This repository contains the Verilog HDL projects I have worked on while learning digital design. I created these projects to practice different Verilog modeling styles, understand how digital circuits work, and improve my RTL design skills.
 
-This repository showcases my hands-on implementations of digital circuits using the four fundamental Verilog modelling styles. It serves as a practical portfolio demonstrating my understanding of digital logic design, RTL development, simulation, and verification.
+The projects are grouped based on the Verilog modeling style used. Each project includes the Verilog design file, a testbench, a waveform, and a short README explaining the design.
 
 ## Repository Structure
 
-```
-Verilog-HDL/
+```text
+Verilog-Digital-Design/
 │
-├── Dataflow_Modelling/
-├── Gate_Level_Modelling/
-├── Structural_Modelling/
-└── Behavioral_Modelling/
+├── Behavioral_Modeling/
+├── Dataflow_Modeling/
+├── Gate_Level_Modeling/
+├── Structural_Modeling/
+└── Projects/
 ```
 
-Each folder contains digital circuits implemented using a specific Verilog modelling style.
+## Modeling Styles
 
-## Modelling Styles
+This repository covers the four basic Verilog modeling styles:
 
-- **Dataflow Modelling** – Describes circuits using continuous assignment (`assign`) statements.
-- **Gate-Level Modelling** – Implements circuits using Verilog gate primitives.
-- **Structural Modelling** – Builds complex circuits by interconnecting lower-level modules.
-- **Behavioral Modelling** – Describes circuit behavior using procedural statements such as `always`, `if`, and `case`.
+- **Behavioral Modeling** – Uses procedural blocks such as `always`, `if`, and `case`.
+- **Dataflow Modeling** – Uses continuous assignment with the `assign` statement.
+- **Gate-Level Modeling** – Builds circuits using Verilog gate primitives.
+- **Structural Modeling** – Connects smaller modules together to build larger circuits.
 
-## Circuits Covered
+## Projects Included
+
+The repository contains different digital circuits, including:
 
 - Logic Gates
 - Multiplexers
 - Demultiplexers
+- Encoders
+- Decoders
+- Comparators
 - Adders
 - Subtractors
-- Comparators
+- Latches
+- Flip-Flops
+- Registers
+- Shift Registers
+- Counters
+
+Each project folder contains:
+
+- Verilog design file
+- Testbench
+- Waveform
+- README
 
 ## Tools Used
 
 - Verilog HDL
-- Synopsys VCS
-- QuestaSim
+- Icarus Verilog
+- GTKWave
+- Visual Studio Code
 - Git
 - GitHub
 
-## Skills Demonstrated
+## About Me
 
-- RTL Design
-- Digital Logic Design
-- Combinational Circuit Design
-- Functional Verification
-- Testbench Development
-- Digital Circuit Simulation
+**Rahma A. Dalhat**
 
-## About
+Computer Science Graduate and Digital VLSI & RTL Design Trainee.
 
-This repository is part of my Digital VLSI and RTL Design learning journey. It documents my practical implementations of digital circuits using different Verilog modelling techniques while following industry-standard coding and verification practices.
+This repository reflects my learning journey as I continue practicing digital design and building Verilog projects.
 
----
+GitHub:
+https://github.com/radalhat
 
-**Author:** Rahma A. Dalhat
-
-Computer Science Graduate | Digital VLSI & RTL Design Trainee
-
-- GitHub: https://github.com/radalhat
-- LinkedIn: https://linkedin.com/in/rahma-a-dalhat
+LinkedIn:
+https://linkedin.com/in/rahma-a-dalhat
